@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Digital Udhaar Khata</string>
+    <string name="name">Digital Udhaar Khata Login</string>
+    <string name="fname">Full Name</string>
+    <string name="password">Password</string>
+    <string name="text_hindi" translatable="false">हिंदी</string>
+    <string name="text_english" translatable="false">English</string>
+    <string name="text_spanish" translatable="false">" Español"</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/bck"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/e_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:fontFamily="sans-serif-condensed-light"
+        android:inputType="text"
+        android:background="@drawable/rounded_corner_edittext"
+        android:textColorHint="#3700B3" />
+
+    <EditText
+        android:id="@+id/e_email"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Balance"
+        android:fontFamily="sans-serif-condensed-light"
+        android:background="@drawable/rounded_corner_edittext"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#3700B3" />
+
+    <EditText
+        android:id="@+id/e_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:background="@drawable/rounded_corner_edittext"
+        android:textColorHint="#3700B3" />
+
+    <EditText
+        android:id="@+id/e_phnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner_edittext"
+        android:hint="Phone Number"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColorHint="#3700B3" />
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="261dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/button_round_corner"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/viewdata"
+        android:layout_margin="20dp"
+        android:layout_width="261dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_round_corner"
+        android:text="View data(Full List)" />
+
+    <Button
+        android:id="@+id/viewdataLL"
+        android:layout_margin="20dp"
+        android:layout_width="261dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_round_corner"
+        android:text="View data(ListView)" />
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_margin="20dp"
+        android:layout_width="261dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_round_corner"
+        android:text="SMS" />
+</LinearLayout>
